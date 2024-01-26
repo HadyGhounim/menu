@@ -1,0 +1,71 @@
+:root{
+    --main-color: #F0C929;
+}
+
+
+body{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 100%;
+    height: 80%;
+    padding: 10px;
+    margin: 10px;
+}
+img{
+    transform: scale(0.9);
+}
+.line{
+    position: absolute;
+    left: 0;
+    background-color: yellow;
+    color: yellow;
+    width: 100%;
+    height: 1%;
+}
+p{
+    position: absolute;
+    left: 10%;
+}
+.info{
+    outline: 3px solid yellow;
+    margin-top: 10px;
+    transform: scale(0.8);
+}
+.icons{
+    position: relative;
+    bottom: -100px;
+    justify-content: space-around;
+    i{
+        font: 800;
+        font-size: 30px;
+    }
+    .snapchat, .twitter, .instagram{
+        padding: 20px;
+        border-radius: 6px;
+        i{
+            background-color: white;
+            border-radius: 50%;
+            padding: 10px;
+        }
+    }
+}
+a{
+    display: block;
+    width: fit-content;
+    padding: 10px;
+
+}
+.instagram img{
+    transform: scale(0.7);
+}
+@media (max-width: 420px){
+    .container{
+        overflow: hidden;
+    }
+    .info{
+        margin-top: 10%;
+        border-radius: 20px;
+    }
+}
